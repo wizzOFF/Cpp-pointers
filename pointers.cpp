@@ -31,5 +31,8 @@ int main
     ptr = &ageUtilisateur;
     //On met l'adresse de 'ageUtilisateur' dans le pointeur 'ptr'
 
+    cout << "L'adresse de 'ageUtilisateur' est : " << &ageUtilisateur << endl;
+    cout << "La valeur de pointeur est : " << ptr << endl;  
+
     return 0;
 }
