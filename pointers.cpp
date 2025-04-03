@@ -42,5 +42,8 @@ int main
     
     *pointeur = 2;  //On accède à la case mémoire pour en modifier la valeur
 
+    delete pointeur;    //On libère la case mémoire
+    pointeur = 0;       //On indique que le pointeur ne pointe plus vers rien
+
     return 0;
 }
