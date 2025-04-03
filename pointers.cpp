@@ -1,10 +1,10 @@
-
+/*
 #include <iostream>
 using namespace std;
 
 int main
 {
-    /*
+    
     int *pointeur(0);
 
     double *pointeurA(0);
@@ -21,8 +21,8 @@ int main
     
     int const *pointeurE(0);
     //Un pointeur qui peut contenir l'adresse d'un nombre entier constant
-    */
-    /*
+    
+    
     int ageUtilisateur(16);
     //Une variable de type int
     int *ptr(0);
@@ -35,8 +35,8 @@ int main
     cout << "La valeur de pointeur est : " << ptr << endl;
 
     cout << "La valeur est :  " << *ptr << endl;
-    */
-
+    
+    
     int *pointeur(0);
     pointeur = new int;
     
@@ -46,4 +46,27 @@ int main
     pointeur = 0;       //On indique que le pointeur ne pointe plus vers rien
 
     return 0;
+    
+}
+*/
+
+
+#include <iostream>
+using namespace std;
+
+int main()
+{
+   int* pointeur(0);
+   pointeur = new int;
+
+   cout << "Quel est votre age ? ";
+   cin >> *pointeur;
+   //On écrit dans la case mémoire pointée par le pointeur 'pointeur'
+
+   cout << "Vous avez " << *pointeur << " ans." << endl;
+   //On utilise à nouveau *pointeur
+    delete pointeur;   //Ne pas oublier de libérer la mémoire
+   pointeur = 0;       //Et de faire pointer le pointeur vers rien
+
+   return 0;
 }
