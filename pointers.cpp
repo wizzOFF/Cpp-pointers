@@ -4,20 +4,20 @@ using namespace std;
 
 int main
 {
-    int *pointeur;
+    int *pointeur(0);
 
-    double *pointeurA;
+    double *pointeurA(0);
     //Un pointeur qui peut contenir l'adresse d'un nombre à virgule
     
-    unsigned int *pointeurB;
+    unsigned int *pointeurB(0);
     //Un pointeur qui peut contenir l'adresse d'un nombre entier positif
     
-    string *pointeurC;
+    string *pointeurC(0);
     //Un pointeur qui peut contenir l'adresse d'une chaîne de caractères
     
-    vector<int> *pointeurD;
+    vector<int> *pointeurD(0);
     //Un pointeur qui peut contenir l'adresse d'un tableau dynamique de nombres entiers
     
-    int const *pointeurE;
+    int const *pointeurE(0);
     //Un pointeur qui peut contenir l'adresse d'un nombre entier constant
 }
