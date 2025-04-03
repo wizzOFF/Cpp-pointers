@@ -22,7 +22,7 @@ int main
     int const *pointeurE(0);
     //Un pointeur qui peut contenir l'adresse d'un nombre entier constant
     */
-    
+    /*
     int ageUtilisateur(16);
     //Une variable de type int
     int *ptr(0);
@@ -35,6 +35,12 @@ int main
     cout << "La valeur de pointeur est : " << ptr << endl;
 
     cout << "La valeur est :  " << *ptr << endl;
+    */
+
+    int *pointeur(0);
+    pointeur = new int;
+    
+    *pointeur = 2;  //On accède à la case mémoire pour en modifier la valeur
 
     return 0;
 }
