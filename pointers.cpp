@@ -32,7 +32,9 @@ int main
     //On met l'adresse de 'ageUtilisateur' dans le pointeur 'ptr'
 
     cout << "L'adresse de 'ageUtilisateur' est : " << &ageUtilisateur << endl;
-    cout << "La valeur de pointeur est : " << ptr << endl;  
+    cout << "La valeur de pointeur est : " << ptr << endl;
+
+    cout << "La valeur est :  " << *ptr << endl;
 
     return 0;
 }
