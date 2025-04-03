@@ -4,6 +4,7 @@ using namespace std;
 
 int main
 {
+    /*
     int *pointeur(0);
 
     double *pointeurA(0);
@@ -20,4 +21,15 @@ int main
     
     int const *pointeurE(0);
     //Un pointeur qui peut contenir l'adresse d'un nombre entier constant
+    */
+    
+    int ageUtilisateur(16);
+    //Une variable de type int
+    int *ptr(0);
+    //Un pointeur pouvant contenir l'adresse d'un nombre entier
+
+    ptr = &ageUtilisateur;
+    //On met l'adresse de 'ageUtilisateur' dans le pointeur 'ptr'
+
+    return 0;
 }
